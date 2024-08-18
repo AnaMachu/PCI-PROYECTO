@@ -16,4 +16,4 @@ salidas: calorías a consumir y alimentos
  4.1 Calorías mantenimiento= (10*peso)+(6.25*estatura)-(5*edad)+5
 5 Preguntar objetivo Fitness (Subir peso, bajar peso, mantenimiento)
 6 Si objetivo fitness="subir peso"
- 6.1
+ 6.1Calorías mantenimientos*.20 + Calorias mantenimiento= Superavit
