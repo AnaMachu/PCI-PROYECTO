@@ -1,5 +1,5 @@
 sexofemenino="Mujer"
-paquete1=("arroz,pollo,frijol,leche,queso,huevo,avena,pasta,lentejas,tortilla,jamón,pan bimbo")
+paquete1=("arroz,pollo,frijol,leche,queso,huevo,avena,pasta,lentejas,tortilla,jamón,pan bimbo,crema")
 paquete2=("arroz,pollo,frijol,leche,queso,yogur,avena,pasta,lentejas,tortilla,jamón,pan bimbo cero, pescado,barra de proteina, rice cakes, huevo,nueces, frutas, hotcakes de avena")
 paquete3=("arroz,pollo,frijol,leche de proteína,queso,yogur griego light,avena,pasta,lentejas,tortilla,jamón,pan oroweat, pescado,barra de proteina, rice cakes, huevo,nueces, frutas, hotcakes de avena, salmón,tocino,carne de res, gelatina light, nopales, canre de cerdo, crema de maní, germen de trigo")
 sexo=str(input("¿Cuál es tu sexo? (Hombre/Mujer): "))
