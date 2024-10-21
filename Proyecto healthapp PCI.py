@@ -1,23 +1,41 @@
+'''
+Se reciben las variables peso,estatura y edad y devuelve calorías
+de mantenimiento según el sexo del usuario
+'''
+def calorias_de_mantenimientof(peso, estatura, edad):#define calorías para mantenerse para mujer
+    cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) - 161) * 10)
+   return cantidad_de_calorías
+
+def calorias_de_mantenimientom(peso, estatura, edad):#define calorías para mantenerse para hombre
+   cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) + 5) * 10)
+   return cantidad_de_calorías
+'''
+Recibe calorías de mantenimiento y se multiplican 
+por un factor para calcular un superavit del 20%
+'''
+
+def calcular_superavit(cals):
+    return cals * 1.2
+'''
+Recibe calorías de mantenimiento y se multiplican
+por un factor para calcular un deficit del 20%
+'''
+def calcular_deficit(cals):
+    return cals * 0.8
+
+
 sexofemenino = "Mujer"
 # Matriz con alimentos, gramajes y calorías por paquete
 paquetes = [
     [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50]], # Paquete 1 (700g)
     [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200], ["lentejas", 100, 120]], # Paquete 2 (900g)
     [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200], ["lentejas", 100, 120], ["tortilla", 100, 50], ["jamón", 100, 150], ["pan bimbo", 100, 70]]  # Paquete 3 (1200g)
-]
+    ]
 
 sexo = str(input("¿Cuál es tu sexo? (Hombre/Mujer): "))
 peso = float(input("¿Cuántos pesas? (en kilos) "))
 edad = int(input("¿Cuál es tu edad? "))
 estatura = float(input("¿Cuál es tu estatura? (en metros) "))
-
-def calorias_de_mantenimientof(peso, estatura, edad):#define calorías para mantenerse para mujer
-   cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) - 161) * 10)
-   return cantidad_de_calorías
-
-def calorias_de_mantenimientom(peso, estatura, edad):#define calorías para mantenerse para hombre
-   cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) + 5) * 10)
-   return cantidad_de_calorías
 
 if sexo == sexofemenino:
     cals = calorias_de_mantenimientof(peso, estatura, edad)
@@ -25,12 +43,6 @@ else:
     cals = calorias_de_mantenimientom(peso, estatura, edad)
 
 print(f"Calorías de mantenimiento: {cals} calorías")
-
-def calcular_superavit(cals):
-  return cals * 1.2
-
-def calcular_deficit(cals):
-  return cals * 0.8
 
 objetivo_fitness = str(input("¿Cuál es tu objetivo fitness? (Subir de peso, Bajar de peso, Mantenimiento) "))
 
@@ -81,4 +93,4 @@ while continuar == "s":
     # Preguntar si quiere continuar calculando
     continuar = str(input("¿Quieres hacer otro cálculo? (s/n): "))
 
-print("Gracias por utilizar el programa.")
+print("Listos para una vida saludable.")
