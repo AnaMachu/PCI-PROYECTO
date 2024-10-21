@@ -2,12 +2,38 @@ Sub-competencia:
 componente: plantea una situación problema que le permite aplicar y demostrar sus conocimientos de programación (avance 1)
 error original:Puse el readme en un formato que no se leía bien mi algoritmo, aparte mencionó que cuidara que fuera posible incluir ciclos while.
 correción:Puse el readme en un formato legible e incluí ciclos.
-líneas donde se ve el cambio: en el readme y en línea 64.
+líneas donde se ve el cambio: en el readme y en línea 64 del proyecto actual(el uso de while fue variable en cada avace pero si lo incluí).
+
 Sub-competencia:
 componente: aplica estructuras cíclicas para resolver un problema de manera eficiente (avance 5)
 error original:Lo entregué unos minutos más tarde de lo que era la hora, así que por el slack le aclaré la situación y dijo que lo revisaría.
 corrección: el uso de while cambió mucho en mi código a lo largo del proyecto, pero en el archivo 3 que subí que es el de ese avance usé while de esta forma:
 
-líneas donde se ve el cambio: en ese archivo en especifico lo usé de la línea 57 a las 79.
+def gramaje_alimento(cantidad_de_calorías,comida_recomendada):
+  while paquete1: True
+  gramaje1=700
+  gramaje=0
+  while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje1
+   gramaje+=gramaje1+creciente
+   print(f"necesitas comer {gramaje}")
+
+while paquete2: True
+gramaje2=800
+gramaje=0
+while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje2
+   gramaje+=gramaje2+creciente
+   print(f"necesitas comer {gramaje}")
+
+while paquete3: True
+gramaje3=1100
+gramaje=0
+while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje3
+   gramaje+=gramaje3+creciente
+   print(f"necesitas comer {gramaje}")
+
+líneas donde se ve el cambio: en ese archivo en especifico lo usé de la línea 57 a la 79.
 
 
