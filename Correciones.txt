@@ -1,5 +1,6 @@
 Sub-competencia:
 componente: plantea una situación problema que le permite aplicar y demostrar sus conocimientos de programación (avance 1)
-error original:Puse el readme en un formato que no se leía bien mi algoritmo, aparte mencionó que cuidara que fuera posible incluir ciclos.
+error original:Puse el readme en un formato que no se leía bien mi algoritmo, aparte mencionó que cuidara que fuera posible incluir ciclos while.
 correción:Puse el readme en un formato legible e incluí ciclos.
+líneas donde se ve el cambio: en el readme y en línea
 
