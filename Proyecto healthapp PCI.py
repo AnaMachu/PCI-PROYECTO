@@ -28,9 +28,19 @@ def calcular_deficit(cals):
 sexofemenino = "Mujer"
 # Matriz con alimentos, gramajes y calorías por paquete
 paquetes = [
-    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50]], # Paquete 1 (700g)
-    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200], ["lentejas", 100, 120]], # Paquete 2 (900g)
-    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100], ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200], ["lentejas", 100, 120], ["tortilla", 100, 50], ["jamón", 100, 150], ["pan bimbo", 100, 70]]  # Paquete 3 (1200g)
+    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100],\
+     ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50]], 
+    # Paquete 1 (700g)
+    
+    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100],\
+     ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200],\
+     ["lentejas", 100, 120]], 
+    # Paquete 2 (900g)
+    
+    [["arroz", 100, 165], ["pollo", 100, 120], ["frijol", 100, 60], ["leche", 100, 100],\
+    ["queso", 100, 70], ["huevo", 100, 150], ["avena", 100, 50], ["pasta", 100, 200],\
+     ["lentejas", 100, 120], ["tortilla", 100, 50], ["jamón", 100, 150], ["pan bimbo", 100, 70]] 
+    # Paquete 3 (1200g)
     ]
 
 sexo = str(input("¿Cuál es tu sexo? (Hombre/Mujer): "))
@@ -88,7 +98,7 @@ while continuar == "s":
         calorias_paquete = sum(alimento[2] for alimento in paquete_recomendado)
         
         # Calcular el gramaje total necesario
-        gramaje_necesario = (objetivo_cals / calorias_paquete) * sum(alimento[1] for alimento in paquete_recomendado)
+        gramaje_necesario = (objetivo_cals/calorias_paquete) * sum(alimento[1] for alimento in paquete_recomendado)
         print(f"Necesitas comer aproximadamente {gramaje_necesario}g de este paquete de comida.")
     
     # Preguntar si quiere continuar calculando
