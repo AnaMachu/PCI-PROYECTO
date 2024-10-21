@@ -6,6 +6,8 @@ líneas donde se ve el cambio: en el readme y en línea 64.
 Sub-competencia:
 componente: aplica estructuras cíclicas para resolver un problema de manera eficiente (avance 5)
 error original:Lo entregué unos minutos más tarde de lo que era la hora, así que por el slack le aclaré la situación y dijo que lo revisaría.
-corrección: en e
+corrección: el uso de while cambió mucho en mi código a lo largo del proyecto, pero en el archivo 3 que subí que es el de ese avance usé while de esta forma:
+
+líneas donde se ve el cambio: en ese archivo en especifico lo usé de la línea 57 a las 79.
 
 
