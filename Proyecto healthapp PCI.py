@@ -9,13 +9,14 @@ def calorias_de_mantenimientof(peso, estatura, edad):#define calorías para mant
 def calorias_de_mantenimientom(peso, estatura, edad):#define calorías para mantenerse para hombre
     cantidad_de_calorias = (((10 * peso) + (6.25 * estatura) - (5 * edad) + 5) * 10)
     return cantidad_de_calorias
+
 '''
 Recibe calorías de mantenimiento y se multiplican 
 por un factor para calcular un superavit del 20%
 '''
-
 def calcular_superavit(cals):
     return cals * 1.2
+
 '''
 Recibe calorías de mantenimiento y se multiplican
 por un factor para calcular un deficit del 20%
