@@ -3,12 +3,12 @@ Se reciben las variables peso,estatura y edad y devuelve calorías
 de mantenimiento según el sexo del usuario
 '''
 def calorias_de_mantenimientof(peso, estatura, edad):#define calorías para mantenerse para mujer
-    cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) - 161) * 10)
-   return cantidad_de_calorías
+    cantidad_de_calorias = (((10 * peso) + (6.25 * estatura) - (5 * edad) - 161) * 10)
+    return cantidad_de_calorias
 
 def calorias_de_mantenimientom(peso, estatura, edad):#define calorías para mantenerse para hombre
-   cantidad_de_calorías = (((10 * peso) + (6.25 * estatura) - (5 * edad) + 5) * 10)
-   return cantidad_de_calorías
+   cantidad_de_calorias = (((10 * peso) + (6.25 * estatura) - (5 * edad) + 5) * 10)
+   return cantidad_de_calorias
 '''
 Recibe calorías de mantenimiento y se multiplican 
 por un factor para calcular un superavit del 20%
