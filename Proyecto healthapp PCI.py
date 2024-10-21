@@ -1,7 +1,11 @@
 sexofemenino="Mujer"
-paquete1=("arroz,pollo,frijol,leche,queso,huevo,avena,pasta,lentejas,tortilla,jamón,pan bimbo")
-paquete2=("arroz,pollo,frijol,leche,queso,yogur,avena,pasta,lentejas,tortilla,jamón,pan bimbo cero, pescado,barra de proteina, rice cakes, huevo,nueces, frutas, hotcakes de avena")
-paquete3=("arroz,pollo,frijol,leche de proteína,queso,yogur griego light,avena,pasta,lentejas,tortilla,jamón,pan oroweat, pescado,barra de proteina, rice cakes, huevo,nueces, frutas, hotcakes de avena, salmón,tocino,carne de res, gelatina light, nopales, canre de cerdo, crema de maní, germen de trigo")
+paquete1=("arroz","pollo","frijol","leche","queso","huevo","avena") #700g
+paquete1cals= 165+120+60+100+70+150
+paquete2=("arroz","pollo","frijol","leche","queso","huevo","avena","pasta","lentejas")#900
+paquete2cals=165+120+60+100+70+150+200+120
+paquete3=("arroz","pollo","frijol","leche","queso","huevo","avena","pasta","lentejas","tortilla","jamón",
+          "pan bimbo")#1200
+paquete3cals=165+120+60+100+70+150+200+120+50+150+70
 sexo=str(input("¿Cuál es tu sexo? (Hombre/Mujer): "))
 peso=float(input("¿Cuántos pesas? (en kilos)"))
 edad=int(input("¿Cuál es tu edad?"))
@@ -49,27 +53,29 @@ else:
  comida_recomendada=paquete3
 print(f"Opciones saludables de comida para ti:{paquete3}")
 
+def gramaje_alimento(cantidad_de_calorías,comida_recomendada):
+  while paquete1: True
+  gramaje1=700
+  gramaje=0
+  while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje1
+   gramaje+=gramaje1+creciente
+   print(f"necesitas comer {gramaje}")
+
+while paquete2: True
+gramaje2=800
+gramaje=0
+while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje2
+   gramaje+=gramaje2+creciente
+   print(f"necesitas comer {gramaje}")
+
+while paquete3: True
+gramaje3=1100
+gramaje=0
+while gramaje<=Déficit or Superavit or cals:
+   creciente=Déficit or Superavit or cals/gramaje3
+   gramaje+=gramaje3+creciente
+   print(f"necesitas comer {gramaje}")
+
 print("Listos para una vida saludable")
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
